@@ -12,5 +12,10 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-  res.send('This is my about route..... ')
+
+   const result = {
+    privateKey: 'hahdidbri',
+    address: 'lmao'
+};
+  res.send(result)
 })
